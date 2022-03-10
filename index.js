@@ -10,31 +10,31 @@ document.body.addEventListener('keydown', function (e) {
       break;
   
     case 66:
-        var sound2 = new Audio("https://drive.google.com/drive/folders/1eW0q8xrMv3sBilXoWmre98kpuvhp4jH3");
+        var sound2 = new Audio("/drum-kit/ride.wav");
         sound2.play();
         addRemoveClass(e.keyCode);
       break;
   
     case 67:
-        var sound3 = new Audio('/snare.wav');
+        var sound3 = new Audio('/drum-kit/snare.wav');
         sound3.play();
         addRemoveClass(e.keyCode);
       break;
   
     case 68:
-        var sound4 = new Audio('/tink.wav');
+        var sound4 = new Audio('/drum-kit/tink.wav');
         sound4.play();
         addRemoveClass(e.keyCode);
       break;
   
     case 69:
-        var sound5 = new Audio('/tom.wav');
+        var sound5 = new Audio('/drum-kit/tom.wav');
         sound5.play();
         addRemoveClass(e.keyCode);
       break;
     
     case 70:
-        var sound6 = new Audio('/hihat.wav');
+        var sound6 = new Audio('/drum-kit/hihat.wav');
         sound6.play();
         addRemoveClass(e.keyCode);
       break;
