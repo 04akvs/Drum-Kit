@@ -4,7 +4,7 @@ document.body.addEventListener('keydown', function (e) {
         
     switch (e.keyCode) {
     case 65:
-        var sound1 = new Audio("/openhat.wav");
+        var sound1 = new Audio("openhat.wav");
         sound1.play();
         addRemoveClass(e.keyCode);
       break;
