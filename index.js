@@ -10,7 +10,7 @@ document.body.addEventListener('keydown', function (e) {
       break;
   
     case 66:
-        var sound2 = new Audio("/ride.mp3");
+        var sound2 = new Audio("ride.mp3");
         sound2.play();
         addRemoveClass(e.keyCode);
       break;
