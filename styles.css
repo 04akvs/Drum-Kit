@@ -1,0 +1,24 @@
+body{
+    font-size: large;
+    background-image: url("https://wallpapercave.com/wp/wp3334914.png");
+    background-size: cover;
+    margin: 100px 150px;
+}
+
+#heading{
+    color: yellowgreen;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 100px;
+}
+#buttons{
+    margin: 40px 20px;
+    width: 150px;
+    height:150px;
+    border-color: yellow;
+}
+.playing {
+    transform: scale(1.2);
+    border-color: rgb(250, 250, 38);
+    box-shadow: 1px 1px 1rem yellow;
+}
